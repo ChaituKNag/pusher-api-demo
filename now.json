@@ -1,0 +1,22 @@
+{
+    "name": "knc-pusher-app",
+    "alias": "knc-pusher-app",
+    "version": 2,
+    "env": {
+        "APP_ID": "863471",
+        "APP_KEY": "3f065358ec6cba9dcd17",
+        "APP_SECRET": "234247e385a5bda13ed0",
+        "APP_CLUSTER": "us3"
+    },
+    "build": {
+        "env": {
+            "APP_ID": "863471",
+            "APP_KEY": "3f065358ec6cba9dcd17",
+            "APP_SECRET": "234247e385a5bda13ed0",
+            "APP_CLUSTER": "us3"
+        }
+    },
+    "builds": [
+        { "src": "./public/*", "use": "@now/static"}
+    ]
+}
